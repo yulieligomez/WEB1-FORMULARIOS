@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <h1>Formulario</h1> 
+    <form action="index.js" method="post">
+
+         <label for="Nombreid">Nombre</label> 
+         <!-- ingresar datos --> 
+         <input type="text" name="Nombre" id="Nombreid">
+
+         <label for="apellidoid">apellido</label> 
+         <input type="text" name="apellido" id="apellidoid">
+
+         <label for="emailid">email</label>
+         <input type="email" name="email" id="emailid">
+
+         <label for="edadid">edad</label>
+         <input type="number" name="edad" id="edadid" min="0" max="120" required>
+
+         <label for="contraseñaid">contraseña</label>
+         <input type="password" name="contraseña" id="contraseñaid">
+
+         <label for="mensaje">Ingrese un mensaje</label>
+         <!-- Ingreso de mucho texto --> 
+         <textarea name="mensaje" id="mensaje" cols="40" rows="10"></textarea>
+         <!-- Lista de opciones --> 
+         <label for="escuderia">Escuderias</label>
+         <select name="escuderia" id="escuderia"> 
+             <option value="">Elegir...</option>
+             <option value="ferrari">Ferrari</option>
+             <option value="mclaren">Mclaren</option> 
+             <option value="hass">Hass</option>
+
+         </select> 
+        <!-- Submit --> 
+         <input type="submit" value="Enviar"> 
+    </form>
+
+    <p> 1- ¿Qué atributo se utiliza para especificar la URL a la que se enviarán los datos del formulario?
+           <br>a) method <u>b) action</u> c) target d) url </p> 
+
+    <p> 2- ¿Cuál es el atributo que se utiliza para especificar el tipo de datos que se espera en un 
+           campo de entrada? <br><u>a) data-type</u> b) input-type c) type d) data </p> 
+
+    <p> 3- ¿Cuál de los siguientes tipos de campo de entrada se utiliza para ingresar direcciones de 
+            correo electrónico? <br>a) text <u>b) email</u> c) mail d) input </p>
+
+    <p> 4- ¿Cuál es el elemento HTML que se utiliza para asociar un texto descriptivo con un campo de entrada
+            en un formulario? <br>a) < description> b) < info> c) < placeholder> <u>d) < label></ label></u> </p>
+
+    <p> 5- ¿Cuál de las siguientes opciones es la etiqueta correcta para crear un botón de envío en un formulario? <br>
+           <u>a) < input type="submit"></u> b) < button type="submit"> c) < btn> d) < submit> </p>
+
+    <p> 6- ¿Cuál de los siguientes atributos se utiliza para hacer que un campo de entrada sea obligatorio en un 
+           formulario? <br><u>a) required</u> b) mandatory c) validate d) mandatoryfield</p>
+
+    <p> 7- ¿Cuál de los siguientes elementos HTML se utiliza para crear una lista desplegable en un formulario?<br>
+           a) <list> b) < dropdown> <u>c) < select></u> d) < input type="list"> </p>
+
+    <p> 8- ¿Cuál de los siguientes tipos de campo de entrada se utiliza para ingresar un apellido? <br>
+           <u>a) text</u> b) email c) mail d) input </p>
+
+    <p> 9- ¿Qué atributo se utiliza para definir un valor predeterminado en un campo de entrada de un formulario?<br>
+        <u>a) value</u> b) default c) preset d) initial </p>
+
+    <p> 10- ¿Qué son los métodos / verbos de petición HTTP? Dar ejemplos. Bibliografía MDN <br>
+        Son los comandos que un cliente envía a un servidor para indicar qué tipo de acción se desea <br>
+        realizar con un recurso específico. Ejemplo: get, head, post, put </p>
+
+    <p> 11- ¿Qué son los códigos de estado de respuestas HTTP? Realizar una tabla con su clasificación. Bibliografía MDN <br>
+        Son números de tres dígitos que un servidor envía como respuesta a una solicitud HTTP, indicando el estado de esa <br>
+        solicitud. Se dividen en cinco clases. <br>
+    <br>
+
+    1- Respuestas informativas (100–199)<br>
+    2- Respuestas satisfactorias (200–299)<br>
+    3- Redirecciones (300–399)<br>
+    4- Errores de los clientes (400–499)<br>
+    5- Errores de los servidores (500–599) <br>
+    </p>
+
+
+
+</body>
+</html>

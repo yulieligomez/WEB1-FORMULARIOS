@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1> 
+    <form action="index.js" method="post">
+
+         <label for="Nombreid">Nombre</label>  
+         <input type="text" name="Nombre" id="Nombreid" required>
+
+         <label for="apellidoid">apellido</label> 
+         <input type="text" name="apellido" id="apellidoid" required>
+
+         <label for="emailid">email</label>
+         <input type="email" name="email" id="emailid" required>
+
+         <label for="nacimientoid">nacimiento</label>
+         <input type="date" name="nacimiento" id="nacimientoid" required>
+
+         <label for="dniid">DNI</label>
+         <input type="number" name="DNI" id="dniid" maxlength="8" required>
+
+         <label for="telefonoid">telefono</label>
+         <input type="tel" name="telefono" id="telefonoid" >
+
+         <label for="usuarioXid">Usuario de X</label>
+         <input type="text" name="usuarioX" id="usuarioXid">
+
+         <label for="usuarioigid">Usuario de Instagram</label>
+         <input type="text" name="usuarioig" id="usuarioigid">
+
+         <label for="provinciaid">provincia</label>
+         <select name="provincia" id="provinciaid"> 
+             <option value="">Elegir...</option>
+             <option value="BsAs">Buenos Aires</option>
+             <option value="catamarca">Catamarca</option>
+             <option value="chaco">Chaco</option>
+             <option value="chubut">Chubut</option>
+             <option value="cordoba">Córdoba</option>
+             <option value="corrientes">Corrientes</option>
+             <option value="ER">Entre Ríos</option>
+             <option value="formosa">Fomósa</option>
+             <option value="jujuy">Jujuy</option>
+             <option value="lapampa">La Pampa</option>
+             <option value="larioja">La Rioja</option>
+             <option value="mendoza">Mendoza</option>
+             <option value="misiones">Misiones</option>
+             <option value="neuquen">Neuquén</option>
+             <option value="RN">Río Negro</option>
+             <option value="salta">Salta</option>
+             <option value="sanjuan">San Juan</option>
+             <option value="sanluis">San Luis</option>
+             <option value="santacruz">Santa Cruz</option>
+             <option value="santafe">Santa Fé</option>
+             <option value="SE">Santiago del Estero</option>
+             <option value="TDF">Tierra del Fuego</option>
+         </select> 
+         <input type="submit" value="Enviar"> 
+    </form>
+
+    <fieldset>
+        <legend></legend>
+    </fieldset>
+
+
+</body>
+</html>
